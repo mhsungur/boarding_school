@@ -155,18 +155,18 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
                 </div>
 
                 {/* Logo (beyaz) */}
-                <div className="relative z-10 text-center">
-                    <div className="mb-8">
+                <div className="relative z-10 text-center px-6 max-w-lg">
+                    <div className="mb-10">
                         <img
                             src="/logo.png"
                             alt="Hasbahçe"
-                            className="w-36 h-36 object-contain mx-auto brightness-0 invert opacity-90"
+                            className="w-64 h-auto object-contain mx-auto brightness-0 invert opacity-95 hover:scale-105 transition-transform duration-300"
                         />
                     </div>
-                    <h2 className="text-2xl font-bold text-white mb-3">Hasbahçe</h2>
-                    <p className="text-teal-200 text-sm font-medium mb-8">Eğitim ve Yardımlaşma Derneği</p>
-                    <div className="w-16 h-px bg-teal-500 mx-auto mb-8"></div>
-                    <p className="text-teal-100 text-lg italic font-light leading-relaxed">
+                    <h2 className="text-4xl font-extrabold text-white tracking-wide mb-4">Hasbahçe</h2>
+                    <p className="text-teal-200 text-lg font-medium mb-10">Eğitim ve Yardımlaşma Derneği</p>
+                    <div className="w-24 h-0.5 bg-teal-400/60 mx-auto mb-10"></div>
+                    <p className="text-teal-50 text-xl italic font-light leading-relaxed">
                         "Bir neslin ihyası; kötülerin imhasıyla değil, yeni neslin eğitim ve terbiyesiyle mümkündür."
                     </p>
                 </div>
