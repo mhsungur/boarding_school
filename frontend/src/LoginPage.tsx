@@ -167,7 +167,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
                     <p className="text-teal-200 text-sm font-medium mb-8">Eğitim ve Yardımlaşma Derneği</p>
                     <div className="w-16 h-px bg-teal-500 mx-auto mb-8"></div>
                     <p className="text-teal-100 text-lg italic font-light leading-relaxed">
-                        "İlim Yolculuğunuzda<br />Rehberiniz"
+                        "Bir neslin ihyası; kötülerin imhasıyla değil, yeni neslin eğitim ve terbiyesiyle mümkündür."
                     </p>
                 </div>
             </div>
